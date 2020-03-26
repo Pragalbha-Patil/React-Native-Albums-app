@@ -20,6 +20,7 @@ const styles = {
     alignItems: 'center',
     height: 60,
     paddingTop: 15,
+    paddingBottom: 5,
     shadowColor: '#0a0a0a',
     shadowOffset: {width: 0, height: 20},
     shadowOpacity: 0.2,
