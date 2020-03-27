@@ -17,9 +17,7 @@ const AlbumDetail = ({album}) => {
           />
         </View>
         <View style={styles.headerContentStyle}>
-          <Text style={{fontSize: 18, fontWeight: 'bold', color: 'skyblue'}}>
-            {title}
-          </Text>
+          <Text style={{fontSize: 16}}>{title}</Text>
           <Text>{artist}</Text>
         </View>
       </CardSection>
@@ -27,7 +25,7 @@ const AlbumDetail = ({album}) => {
         <Image style={styles.imageStyle} source={{uri: image}} />
       </CardSection>
       <CardSection>
-        <Button onPress={() => Linking.openURL(url)} />
+        <Button onPress={() => Linking.openURL(url)}>Buy Now</Button>
       </CardSection>
     </Card>
   );
